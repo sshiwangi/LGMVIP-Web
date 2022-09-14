@@ -8,38 +8,40 @@
     <title>TO DO LIST</title>
 </head>
 <body>
-    <!-- <div class="container"> -->
-        <div>
-            <h1 id="project-name">TO DO LIST</h1>
-        </div>
-        <div class="input-box-container">
-            <!-- <div class="type-something-box"> -->
-                <input class="input-box" type="text" placeholder="Write something..">
-            <!-- </div> -->
-            <button class="add-task-button">Add Task</button>
-        </div>
-        <div class="main-content">
-            <h2>Tasks</h2>
-            <div class="all-tasks">
-                <!-- <div class="Task">
-                   
-                    <input type="text" class="text" readonly>
-                    
-                    <div class="buttons">
-                        <button class="done">Done</button>
-                        <button class="delete">Delete</button>
-                    </div>
-                </div> -->
-            </div>
-            <h2 class="Completed-task visibility">Completed Tasks</h2>
-            <div class="completed-task-list">
-                <!-- <div class="Task">
-                    <input type="text" class="text" readonly>
-                </div> -->
-            </div>
-        </div>
+    <div class="container">
+        <div class="sidebar-box">
+            <div class="completed">Completed Task</div>
 
-    <!-- </div> -->
+        </div>
+        <div class="main-container">
+            <nav class="navbar">
+                <h1 id="project-name">To do list</h1>
+            </nav>
+            <div class="main">
+                <div class="input-box-container">
+                    <input class="input-box" type="text" placeholder="Write something..">
+                    <button class="add-task-button">Add Task</button>
+                </div>
+                <div class="main-content">
+                    <h2 class="tasks-heading visibility">Tasks</h2>
+                    <div class="all-tasks">
+                        <!-- <div class="Task">
+                            <label class="checkbox-container">
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+
+                            </label>
+                            <input type="text" class="text done-text" readonly>
+                            <div class="buttons">
+                                <button class="delete">Delete</button>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <script src="Todo.js"></script>
 </body>
 </html>
